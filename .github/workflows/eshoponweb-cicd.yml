@@ -1,4 +1,4 @@
-name: eShopOnWeb Build and Test
+name: eShopOnWeb Build and Test cicd
 
 #Triggers (uncomment line below to use it)
 on: workflow_dispatch
@@ -9,7 +9,7 @@ env:
   LOCATION: centralus
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 92183e49-9b90-4d8f-821d-cc216c991687
-  WEBAPP-NAME: devops-webapp-<centralus>-62279479
+  WEBAPP-NAME: devops-webapp-centralus-62279479
 
 jobs:
   #Build, test and publish .net web project in repository
